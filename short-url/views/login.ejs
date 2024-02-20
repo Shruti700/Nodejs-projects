@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="./login.css" rel="stylesheet"/>
+    <title>Login</title>
+    <!-- <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: aquamarine;
+        }
+    </style> -->
+</head>
+<body id="bodycolor" >
+    <h2 className="text-red-500">Login</h2>
+    <form method="POST" action="/user/login">
+        <label>Email : </label>
+        <input type="email" name="email" required><br/>
+        <label>Password : </label>
+        <input type="password" name="password" required><br/>
+        <button type="submit" title="Login">Login</button>
+    </form>
+    <a href="/signup">Signup instead</a>
+</body>
+</html>

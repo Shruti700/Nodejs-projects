@@ -1,0 +1,30 @@
+{
+  "name": "short-url",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./styles/tailwind.css -o ./styles/output.css --watch",
+    "tailwind:css": "postcss ./styles/tailwind.css -o ./styles/style.css"
+
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.17",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
+    "shortid": "^2.2.16",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
